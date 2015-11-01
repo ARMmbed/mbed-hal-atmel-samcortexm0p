@@ -1,0 +1,31 @@
+{
+  "name": "mbed-hal-atmel-samcortexm0p",
+  "version": "0.1.0",
+  "description": "mbed HAL for Atmel SAM Cortex M0+ MCUs",
+  "keywords": [
+    "mbed",
+    "hal",
+    "atmel",
+    "samcortexm0p"    
+  ],
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [
+    "source"
+  ],
+  "dependencies": {
+    "mbed-hal": "*"
+  },
+  "targetDependencies": {
+    "atmel-samcortexm0p-samr21": {
+    "mbed-hal-atmel-samr21g18a": "*"
+    },
+    "atmel-samcortexm0p-samd21": {
+    "mbed-hal-atmel-samd21g18a": "*"
+    }
+  }
+}
