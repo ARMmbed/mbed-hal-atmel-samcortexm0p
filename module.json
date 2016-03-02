@@ -1,6 +1,6 @@
 {
   "name": "mbed-hal-atmel-samcortexm0p",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "mbed HAL for Atmel SAM Cortex M0+ MCUs",
   "keywords": [
     "mbed",
@@ -8,6 +8,12 @@
     "atmel",
     "samcortexm0p"    
   ],
+  "author": "Akhil P <Akhil.P@atmel.com>",
+  "repository": {
+    "url": "git@github.com:ARMmbed/mbed-hal-atmel-samcortexm0p.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/mbed-hal-atmel-samcortexm0p",  
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
